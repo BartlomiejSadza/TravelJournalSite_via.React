@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import data from './data';
-import Navbar from './Navbar.js';
-import Card from './Card.js';
+import Navbar from './components/Navbar.js';
+import Card from './components/Card.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      {data.map((item, index) => 
         <Card key={index} {...item} /> 
       )}
+      <Footer />
     </div>
   );
 }
