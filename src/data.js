@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
       title: "Mount Fuji",
       location: "Japan",
@@ -36,3 +36,5 @@ export default [
     imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/81/30/3f/caption.jpg?w=1400&h=1400&s=1&cx=1846&cy=1833&chk=v1_6ae0a81ae3361e988707"
   }
 ]
+
+export default data;
