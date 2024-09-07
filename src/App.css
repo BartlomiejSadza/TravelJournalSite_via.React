@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  font-size: 12px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  height: 55px;
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+nav img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  padding: 3% 0 0 10px;
+}
+.card img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5%;
+}
+.card-content {
+  padding: 0 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.card-map {
+  display: flex;
+  align-items: center;
+}
+.card-map > p {
+  margin-left: 5px;
+  margin-right: 10px;
+  letter-spacing: 0.1rem;
+}
+.card-map > img {
+  width: 7px;
+  height: 10px;
+}
+.card-map > a {
+  font-size: 0.7rem;
+  color: grey;
+}
+.card-content > h3 {
+  margin-top: 0;
+  margin-bottom: 0%;
+  font-size: 2rem;
+}
+.card-content > h6 {
+  margin-top: auto;
+  margin-bottom: 5px;
+  font-size: 0.7rem;
+}
+.card-content > p {
+  font-size: 0.7rem;
+  max-width: 400px;
+  max-height: 50px;
+}
+hr {
+  margin-top: 3%;
+  width: 95%;
+  border: none;
+  height: 0.7px;
+  background-color: lightgrey;
+}
